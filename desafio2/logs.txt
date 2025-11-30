@@ -1,0 +1,49 @@
+🧹 Limpando logs anteriores...
+🚀 Subindo containers...
+time="2025-11-30T18:49:22-03:00" level=warning msg="C:\\Users\\morai\\IdeaProjects\\desafios-fundamentos-computacao\\desafio2\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Container pg-demo  Running
+⏳ Aguardando PostgreSQL iniciar...
+📝 Inserindo novo dado no banco...
+INSERT 0 1
+📌 Listando dados antes de remover o container:
+ id |                         text                         |         created_at         
+----+------------------------------------------------------+----------------------------
+  1 | Hello from persistent volume!                        | 2025-11-30 21:45:06.377691
+  2 | Primeiro registro persistido.                        | 2025-11-30 21:45:06.378215
+  3 | Mais um teste de persistência.                       | 2025-11-30 21:45:06.378524
+  4 | Volume Docker funcionando perfeitamente.             | 2025-11-30 21:45:06.379004
+  5 | Isso deve permanecer mesmo após remover o container. | 2025-11-30 21:45:06.379847
+  6 | Valor inserido antes de apagar o container           | 2025-11-30 21:45:15.472981
+  7 | Valor inserido antes de apagar o container           | 2025-11-30 21:49:32.836036
+(7 rows)
+
+🛑 Removendo container...
+time="2025-11-30T18:49:33-03:00" level=warning msg="C:\\Users\\morai\\IdeaProjects\\desafios-fundamentos-computacao\\desafio2\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Container pg-demo  Stopping
+ Container pg-demo  Stopped
+ Container pg-demo  Removing
+ Container pg-demo  Removed
+ Network desafio2_default  Removing
+ Network desafio2_default  Removed
+🔁 Subindo novamente...
+time="2025-11-30T18:49:34-03:00" level=warning msg="C:\\Users\\morai\\IdeaProjects\\desafios-fundamentos-computacao\\desafio2\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Network desafio2_default  Creating
+ Network desafio2_default  Created
+ Container pg-demo  Creating
+ Container pg-demo  Created
+ Container pg-demo  Starting
+ Container pg-demo  Started
+⏳ Aguardando re-subida...
+📌 Listando dados após recriar o container:
+ id |                         text                         |         created_at         
+----+------------------------------------------------------+----------------------------
+  1 | Hello from persistent volume!                        | 2025-11-30 21:45:06.377691
+  2 | Primeiro registro persistido.                        | 2025-11-30 21:45:06.378215
+  3 | Mais um teste de persistência.                       | 2025-11-30 21:45:06.378524
+  4 | Volume Docker funcionando perfeitamente.             | 2025-11-30 21:45:06.379004
+  5 | Isso deve permanecer mesmo após remover o container. | 2025-11-30 21:45:06.379847
+  6 | Valor inserido antes de apagar o container           | 2025-11-30 21:45:15.472981
+  7 | Valor inserido antes de apagar o container           | 2025-11-30 21:49:32.836036
+(7 rows)
+
+🎉 Teste concluído! Dados persistiram!
