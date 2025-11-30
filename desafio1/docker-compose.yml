@@ -1,0 +1,19 @@
+version: "3.9"
+
+networks:
+  desafio-net:
+    name: desafio_network_custom
+
+services:
+  app:
+    build: ./app
+    container_name: app_service
+    networks:
+      - desafio-net
+    ports:
+      - "8080:8080"
+  checker:
+    build: ./checker
+    container_name: checker_service
+    networks:
+      - desafio-net

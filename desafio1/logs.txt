@@ -1,0 +1,30 @@
+app_service      | 
+app_service      |   .   ____          _            __ _ _
+app_service      |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+app_service      | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+app_service      |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+app_service      |   '  |____| .__|_| |_|_| |_\__, | / / / /
+app_service      |  =========|_|==============|___/=/_/_/_/
+app_service      | 
+app_service      |  :: Spring Boot ::                (v4.0.0)
+checker_service  | == Sun Nov 30 21:34:25 UTC 2025 ==
+app_service      | 
+app_service      | 2025-11-30T21:34:26.135Z  INFO 1 --- [demo] [           main] com.desafio.cesar.demo.DemoApplication   : Starting DemoApplication v0.0.1-SNAPSHOT using Java 21.0.9 with PID 1 (/app/app.jar started by root in /app)
+app_service      | 2025-11-30T21:34:26.139Z  INFO 1 --- [demo] [           main] com.desafio.cesar.demo.DemoApplication   : No active profile set, falling back to 1 default profile: "default"
+app_service      | 2025-11-30T21:34:26.686Z  INFO 1 --- [demo] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+app_service      | 2025-11-30T21:34:26.694Z  INFO 1 --- [demo] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+app_service      | 2025-11-30T21:34:26.694Z  INFO 1 --- [demo] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+app_service      | 2025-11-30T21:34:26.717Z  INFO 1 --- [demo] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 524 ms
+app_service      | 2025-11-30T21:34:26.960Z  INFO 1 --- [demo] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+app_service      | 2025-11-30T21:34:26.969Z  INFO 1 --- [demo] [           main] com.desafio.cesar.demo.DemoApplication   : Started DemoApplication in 1.111 seconds (process running for 1.465)
+app_service      | 2025-11-30T21:34:30.542Z  INFO 1 --- [demo] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+app_service      | 2025-11-30T21:34:30.542Z  INFO 1 --- [demo] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+app_service      | 2025-11-30T21:34:30.543Z  INFO 1 --- [demo] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+checker_service  | Fazendo requisição para http://app:8080/hello
+checker_service  | 
+checker_service  | == Sun Nov 30 21:34:30 UTC 2025 ==
+checker_service  | Fazendo requisição para http://app:8080/hello
+checker_service  | Resposta do servidor Java. Timestamp: 2025-11-30T21:34:30.562282271Z
+checker_service  | == Sun Nov 30 21:34:35 UTC 2025 ==
+checker_service  | Fazendo requisição para http://app:8080/hello
+checker_service  | Resposta do servidor Java. Timestamp: 2025-11-30T21:34:35.579690120Z
