@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app.demo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.demo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app.demo.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.desafio.cesar.demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.desafio.cesar.demo.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/desafios-fundamentos-computacao.iml" filepath="$PROJECT_DIR$/.idea/desafios-fundamentos-computacao.iml" />
     </modules>
