@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.desafio.cesar.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.desafio.cesar.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.desafio.cesar.demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.desafio.cesar.demo.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/desafios-fundamentos-computacao.iml" filepath="$PROJECT_DIR$/.idea/desafios-fundamentos-computacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ms-order.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ms-order.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ms-users.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ms-users.app.main.iml" />
     </modules>
   </component>
 </project>

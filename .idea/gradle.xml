@@ -43,6 +43,22 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/desafio5/ms-order" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/desafio5/ms-order" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/desafio5/ms-users" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/desafio5/ms-users" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

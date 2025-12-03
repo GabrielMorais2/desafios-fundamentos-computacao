@@ -81,9 +81,9 @@ Exemplo de resposta
 
 ```json
 [
-  { "user": "Gabriel", "message": "Usuário Gabriel ativo desde 2020-01-01" },
-  { "user": "Maria",   "message": "Usuário Maria ativo desde 2021-03-10" },
-  { "user": "João",    "message": "Usuário João ativo desde 2022-07-15" }
+  { "order": "Gabriel", "message": "Usuário Gabriel ativo desde 2020-01-01" },
+  { "order": "Maria",   "message": "Usuário Maria ativo desde 2021-03-10" },
+  { "order": "João",    "message": "Usuário João ativo desde 2022-07-15" }
 ]
 ```
 
@@ -154,4 +154,4 @@ Se desejar, eu posso:
 
 - Incluir scripts para rodar apenas um dos serviços;
 
-- Mostrar como configurar Feign para usar nomes do serviço do compose (ex.: com @FeignClient(name="user-service", url="http://spring-app1:8080")).
+- Mostrar como configurar Feign para usar nomes do serviço do compose (ex.: com @FeignClient(name="order-service", url="http://spring-app1:8080")).

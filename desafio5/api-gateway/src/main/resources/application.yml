@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: ms-users
+          uri: http://ms-users:8081
+          predicates:
+            - Path=/users/**
+        - id: ms-order
+          uri: http://ms-order:8082
+          predicates:
+            - Path=/orders/**

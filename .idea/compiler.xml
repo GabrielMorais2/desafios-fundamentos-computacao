@@ -7,7 +7,7 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.42/8365263844ebb62398e0dc33057ba10ba472d3b8/lombok-1.18.42.jar" />
         </processorPath>
-        <module name="app2.app.main" />
+        <module name="ms-users.app.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +37,12 @@
       <module name="demo" options="-parameters" />
       <module name="demo.main" options="-parameters" />
       <module name="demo.test" options="-parameters" />
+      <module name="ms-order.app" options="-parameters" />
+      <module name="ms-order.app.main" options="-parameters" />
+      <module name="ms-order.app.test" options="-parameters" />
+      <module name="ms-users.app" options="-parameters" />
+      <module name="ms-users.app.main" options="-parameters" />
+      <module name="ms-users.app.test" options="-parameters" />
       <module name="web" options="-parameters" />
       <module name="web.main" options="-parameters" />
       <module name="web.test" options="-parameters" />
