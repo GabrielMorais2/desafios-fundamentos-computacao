@@ -27,6 +27,22 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/desafio4/app1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/desafio4/app1" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/desafio4/app2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/desafio4/app2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app.demo.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.demo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app.demo.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app2.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app2.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.desafio.cesar.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.desafio.cesar.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.desafio.cesar.demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.desafio.cesar.demo.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/desafios-fundamentos-computacao.iml" filepath="$PROJECT_DIR$/.idea/desafios-fundamentos-computacao.iml" />
     </modules>
